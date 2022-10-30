@@ -88,18 +88,19 @@ const styles = StyleSheet.create({
     backgroundColor: "#FF7832",
   },
   innerContainer: {
-    flex: 4,
+    flex: 5,
     flexDirection: "column",
     justifyContent: "center",
     // backgroundColor: "#fff",
-    padding: 20,
-    margin: 10,
+    paddingHorizontal: 10,
+    marginTop: 25,
+    paddingVertical: 20,
   },
   inputContainer: {
     flex: 0.5,
   },
   cardDeck: {
-    flex: 4.5,
+    flex: 4.4,
   },
   card: {
     backgroundColor: "white",
