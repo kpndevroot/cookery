@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "cookery",
+    "slug": "cookery",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "cookery"
+}
