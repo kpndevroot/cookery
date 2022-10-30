@@ -11,9 +11,10 @@ import {
   FlatList,
 } from "react-native";
 import Recipe from "./src/components/recipe/Recipe";
+import { APP_ID, APP_KEY } from "@env";
 export default function App() {
-  const APP_ID = "8ee6209d";
-  const APP_KEY = "961898985e7b55f22b131f1824b2713c";
+  // const APP_ID = process.env.APP_ID;
+  // const APP_KEY = process.env.APP_KEY;
   const [search, setSearch] = useState("chicken");
   const [recipes, setRecipes] = useState([]);
   const [query, setQuery] = useState("Chicken");
