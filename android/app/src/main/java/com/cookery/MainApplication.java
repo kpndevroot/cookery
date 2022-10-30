@@ -1,4 +1,5 @@
 package com.cookery;
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
 import android.app.Application;
 import android.content.Context;
